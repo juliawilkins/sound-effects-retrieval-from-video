@@ -1,7 +1,6 @@
-# Academic Project Page Template
-This is an academic paper project page template.
-
-
+# Bridging High-Quality Audio and Video via Language for Sound Effects Retrieval from Visual Queries
+Companion website for paper accepted at WASPAA 2023.
+<!-- 
 Example project pages built using this template are:
 - https://www.vision.huji.ac.il/deepsim/
 - https://www.vision.huji.ac.il/3d_ads/
@@ -35,10 +34,10 @@ To edit the websites contents edit the `index.html` file. It contains different 
 - Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
 - This project page can also be made into a github pages website.
 - Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
-- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
+- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/) -->
 
 ## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+Website template adapted from [here](https://github.com/eliahuhorwitz/Academic-project-page-template). Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
 
 ## Website License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
