@@ -94,7 +94,7 @@
                     </span>
 
 <!--                 Supplementary PDF link -->
-                    <span class="link-block">
+                    <!-- <span class="link-block">
                       <a href="static/pdfs/supplementary_material.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -102,10 +102,10 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span> 
+                  </span>  -->
 
                        <!-- Supplementary PDF link -->
-                   <span class="link-block">
+                   <!-- <span class="link-block">
                       <a href="static/metadata/ave_test_meta.csv" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -113,7 +113,7 @@
                       </span>
                       <span>Supplementary</span>
                     </a>
-                  </span>
+                  </span> -->
 
                   <!-- Github link -->
                   <!-- <span class="link-block">
@@ -127,7 +127,7 @@
                 </span> -->
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -135,7 +135,7 @@
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
             </div>
           </div>
         </div>
@@ -149,14 +149,90 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+
+      <table>
+        <tr>
+            <th>Video Frame</th>
+            <th>Retrieved Audio</th>
+        </tr>
+        <!-- LION -->
+        <tr>
+            <td> <img src="examples_companion_web/lion/lion.png" alt="Image 1"></td>
+            <td>
+                <audio controls>
+                    <source src="aud1.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                    <source src="aud2.mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls>
+                    <source src="aud3.mp3" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+            </td>
+        </tr>
+
+        <!-- RIVER -->
+        <tr>
+          <td> <img src="examples_companion_web/river/river.png" alt="Image 1"></td>
+          <td>
+              <audio controls>
+                  <source src="aud1.wav" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <audio controls>
+                  <source src="aud2.mp3" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+              <audio controls>
+                  <source src="aud3.mp3" type="audio/wav">
+                  Your browser does not support the audio element.
+              </audio>
+          </td>
+      </tr>
+
+      <!-- PAGE -->
+      <tr>
+        <td> <img src="examples_companion_web/page_turn/page_turn.png" alt="Image 1"></td>
+        <td>
+            <audio controls>
+                <source src="aud1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <audio controls>
+                <source src="aud2.mp3" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <audio controls>
+                <source src="aud3.mp3" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </td>
+    </tr>
+    <!-- CAMPFIRE -->
+    <tr>
+      <td> <img src="examples_companion_web/campfire/fire.png" alt="Image 1"></td>
+      <td>
+          <audio controls>
+              <source src="aud1_fire.wav" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+          <audio controls>
+              <source src="aud2.mp3" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+          <audio controls>
+              <source src="aud3_fire.mp3" type="audio/wav">
+              Your browser does not support the audio element.
+          </audio>
+      </td>
+  </tr>
+
+
+    </table>
+      
     </div>
   </div>
 </section>
@@ -179,16 +255,15 @@
 </section>
 <!-- End paper abstract -->
 
-<img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+<!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/> -->
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2>
+      <h2 class="title">
         System Overview
       </h2>
       <img src="static/images/block_diag.png" alt="Overview of system"/>
-  
   </div>
 </div>
 </div>
@@ -196,6 +271,18 @@
 <!-- End image carousel -->
 
 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">
+        Results
+      </h2>
+      <h3>Placeholder</h3>
+      <!-- <img src="static/images/block_diag.png" alt="Overview of system"/> -->
+  </div>
+</div>
+</div>
+</section>
 
 
 <!-- Youtube video -->
@@ -275,7 +362,7 @@
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
+      <h2 class="title">Citation</h2>
       <pre><code>Arxiv coming soon!</code></pre>
     </div>
 </section>
