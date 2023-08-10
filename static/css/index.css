@@ -134,5 +134,19 @@ body {
   font-size: smaller;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+.table-container {
+  width: 80%; /* Adjust this as needed */
+}
+
 
 
