@@ -93,49 +93,6 @@
                       </a>
                     </span>
 
-<!--                 Supplementary PDF link -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>  -->
-
-                       <!-- Supplementary PDF link -->
-                   <!-- <span class="link-block">
-                      <a href="static/metadata/ave_test_meta.csv" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span> -->
-
-                  <!-- Github link -->
-                  <!-- <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span> -->
-
-                <!-- ArXiv abstract Link -->
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
             </div>
           </div>
         </div>
@@ -144,25 +101,30 @@
   </div>
 </section>
 
-
 <!-- Teaser video-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-
       <div class="columns is-centered">
+        
+        <table style="width: 100%"">
+          <colgroup>
+            <col span="1" style="width: 100%;">
+            <col span="1" style="width: 20%;">
+            <col span="1" style="width: 20%">
+         </colgroup>
 
-        <table>
           <tr>
-              <th>Video Frame</th>
-              <th>Our Retrieved Audio</th>
-              <th>Wav2CLIP Retrieved Audio</th>
+              <th><center>Input Video Frame</center></th>
+              <th><center>Our Retrieved Audio</center></th>
+              <th><center>Wav2CLIP (Baseline) Retrieved Audio</center></th>
           </tr>
           <!-- LION -->
           <tr>
-              <td> <img src="static/examples_companion_web_v2/lion/lion.png" alt="Image 1"></td>
+              <td> <center></center><img src="static/examples_companion_web_v2/lion/lion.png" alt="Image 1"></center></td>
               <td>
-                  <audio controls>
+                <center>
+                    <audio controls>
                       <source src="static/examples_companion_web_v2/lion/ours/aud1.wav" type="audio/wav">
                       Your browser does not support the audio element.
                   </audio>
@@ -174,8 +136,11 @@
                       <source src="static/examples_companion_web_v2/lion/ours/aud3.wav" type="audio/wav">
                       Your browser does not support the audio element.
                   </audio>
+                </center>
               </td>
+           
               <td>
+                <center>
                 <audio controls>
                     <source src="static/examples_companion_web_v2/lion/w2c/aud1.wav" type="audio/wav">
                     Your browser does not support the audio element.
@@ -188,13 +153,14 @@
                     <source src="static/examples_companion_web_v2/lion/w2c/aud3.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
+              </center>
             </td>
           </tr>
   
           <!-- GUN-->
           <tr>
             <td> <img src="static/examples_companion_web_v2/gun/gun.png" alt="Image 1"></td>
-            <td>
+            <td><center>
                 <audio controls>
                     <source src="static/examples_companion_web_v2/gun/ours/aud1.wav" type="audio/wav">
                     Your browser does not support the audio element.
@@ -207,8 +173,10 @@
                     <source src="static/examples_companion_web_v2/gun/ours/aud3.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
+              </center>
             </td>
             <td>
+              <center>
               <audio controls>
                   <source src="static/examples_companion_web_v2/gun/w2c/aud1.wav" type="audio/wav">
                   Your browser does not support the audio element.
@@ -221,6 +189,7 @@
                   <source src="static/examples_companion_web_v2/gun/w2c/aud3.wav" type="audio/wav">
                   Your browser does not support the audio element.
               </audio>
+            </center>
           </td>
         </tr>
   
@@ -228,6 +197,7 @@
         <tr>
           <td> <img src="static/examples_companion_web_v2/lightning/lightning.png"  alt="Image 1"></td>
           <td>
+            <center>
               <audio controls>
                   <source src="static/examples_companion_web_v2/lightning/ours/aud1.wav" type="audio/wav">
                   Your browser does not support the audio element.
@@ -240,8 +210,10 @@
                   <source src="static/examples_companion_web_v2/lightning/ours/aud3.wav" type="audio/wav">
                   Your browser does not support the audio element.
               </audio>
+            </center>
           </td>
           <td>
+            <center>
             <audio controls>
                 <source src="static/examples_companion_web_v2/lightning/w2c/aud1.wav" type="audio/wav">
                 Your browser does not support the audio element.
@@ -254,6 +226,7 @@
                 <source src="static/examples_companion_web_v2/lightning/w2c/aud3.wav" type="audio/wav">
                 Your browser does not support the audio element.
             </audio>
+          </center>
         </td>
       </tr>
 
@@ -261,6 +234,7 @@
       <tr>
         <td> <img src="static/examples_companion_web_v2/waterfall/waterfall.png" alt="Image 1" width=""></td>
         <td>
+          <center>
             <audio controls>
                 <source src="static/examples_companion_web_v2/waterfall/ours/aud1.wav" type="audio/wav">
                 Your browser does not support the audio element.
@@ -273,8 +247,10 @@
                 <source src="static/examples_companion_web_v2/waterfall/ours/aud3.wav" type="audio/wav">
                 Your browser does not support the audio element.
             </audio>
+          </center>
         </td>
         <td>
+          <center>
           <audio controls>
               <source src="static/examples_companion_web_v2/waterfall/w2c/aud1.wav" type="audio/wav">
               Your browser does not support the audio element.
@@ -287,11 +263,22 @@
               <source src="static/examples_companion_web_v2/waterfall/w2c/aud3.wav" type="audio/wav">
               Your browser does not support the audio element.
           </audio>
+        </center>
       </td>
     </tr>
   
       </table>
+      
     </div>
+    <p>
+      Baseline used: <a href="https://github.com/descriptinc/lyrebird-wav2clip" target="_blank">Wav2CLIP</a>
+    </p>
+    <p>
+      Audio credits: <a href="https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html" target="_blank">Adobe Audition Sound Effects</a>
+    </p>
+    <p>
+      Video credits: <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+    </p>
     </div>
   </div>
 </section>
@@ -319,10 +306,32 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">
-        System Overview
-      </h2>
-      <img src="static/images/block_diag.png" alt="Overview of system"/>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">System Overview</h2>
+          <div class="content has-text-justified">
+        
+        <img src="static/images/block_diag.png" alt="Overview of system"/>
+        <p>Our proposed system, shown above, contains two core components: </p>
+        <ol>
+          <li><b>Automatic HQ Audio-Visual Data Curation Pipeline</b>:  To overcome to challenge of a lack of high-quality audio-visual data,
+            we propose a highly scalable audio-visual data curation pipeline that leverages large language models and 
+            foundational vision-language models to bridge HQ audio and video to create audio-visual pairs. We use <a href="https://huggingface.co/bigscience/bloom">Bloom</a>
+            to enhance SFX text metadata and <a href="https://arxiv.org/abs/2103.00020">CLIP</a> to retrieve relevant video frames 
+            given an LLM-enhanced text query, such that we can create new audio-visual pairs for (2). 
+          
+          </li>
+          <li><b>Contrastive Learning Training</b>: Using our HQ audio-visual data pairs created in (1), 
+            we train a contrastive learning model to create a joint embedding space for audio and visual data.
+            Using a standard contrastive loss, we fine-tune a pre-trained <a href="https://arxiv.org/abs/1912.10211">PANNS</a> audio encoder 
+            to project an audio signal into the original CLIP image embedding space. This allows us to retrieve relevant sound effects given an input visual query, or vice-versa.
+          
+          </li>
+
+        </ol>
+      </div>
+      </div>
+      </div>
   </div>
 </div>
 </div>
@@ -333,11 +342,38 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">
-        Results
-      </h2>
-      <h3>Placeholder</h3>
-      <!-- <img src="static/images/block_diag.png" alt="Overview of system"/> -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Results</h2>
+          <div class="content has-text-justified">
+
+        <p>We evaluate our system against two strong pre-trained baselines capable of performing audio retrieval given a visual query: <a href="https://arxiv.org/abs/2110.11499" target="_blank">Wav2CLIP</a> and <a href="https://arxiv.org/abs/2106.13043">AudioCLIP</a>.
+          We evaluate our proposed method and the baselines on three test sets (1) <b>PSE-Test</b>  <a href="https://www.prosoundeffects.com/">PSE Sound Effects</a> paired with Adobe Stock Videos, generated using our proposed 
+          data curation pipeline, (2) <b>ASFX-Test</b>: <a href="https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html" target="_blank">Adobe Audition Sound Effects</a> paired with Adobe Stock videos, generated
+          using our proposed data curation pipeline, and (3) <b>AVE-Test</b>: A <a href="https://sites.google.com/view/audiovisualresearch"> dataset</a> containing
+          real audio-visual pairs, i.e. "in-the-wild" videos. The results are shown below: 
+
+        </p>
+       <center><img src="static/images/results.png" alt="Image 1" width=70%></center></td>
+       <p>
+        Our best model significantly outperforms the baselines across all three test sets. 
+        The results indicate two important takeaways: first, that our model is superior at matching HQ SFX to production quality video, our target application, 
+        as indicated by the results on PSE-Test and ASFX-Test. Second, and more surprising,
+         our model successfully generalizes to noisy in-the-wild data, represented by AVE-Test, which is particularly interesting for our model trained 
+         from scratch as it was trained with only HQ auto-curated audio-visual pairs. 
+         Conversely, the baselines, which were trained on large in-the-wild video collections,
+        fail to generalize to the clean audio-visual data. 
+        This validates our proposed data curation pipeline as useful for training models that generalize to both clean HQ data and noisy in-the-wild data.
+       </p>
+
+       <p>
+        <b>User Study</b>: We also perform a user study to validate our results qualitatively. We surveyed 
+        28 users who each evaluated 30 comparisons of our retrieved SFX given a visual query versus the baseline, yielding 840 total unique comparisons.
+        We found that participants preferred the SFX recommended by our model over the baseline 68.1% and 66.4% of the time for data from PSE-Test and AVE-Test, respectively.
+       </p>
+      </div>
+      </div>
+      </div>
   </div>
 </div>
 </div>

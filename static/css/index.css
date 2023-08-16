@@ -135,13 +135,14 @@ body {
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+  border-collapse: separate; 
+  border-spacing: 1em;
 }
 
 th, td {
   padding: 2px;
   text-align: center;
 }
+
 
 
